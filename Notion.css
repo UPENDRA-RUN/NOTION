@@ -2,8 +2,14 @@
 
     margin: 0px;
     padding: 0px;
+    
 }
-a{
 
-    margin-left:30px;
+.hero{
+    display: flex;
+
+}
+#logo{
+
+    padding: ;
 }
