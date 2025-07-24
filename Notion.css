@@ -26,10 +26,16 @@
 }
 #actions{
 
-    margin-left: 98px;
+    margin-left: px;
     color: white;
 }
 a{
     
     padding-left:20px;
+}
+button{
+
+    padding: 4px 14px 4px 14px;
+    color: white;
+    background-color: light rgb(93, 93, 216);
 }
