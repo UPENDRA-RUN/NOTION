@@ -7,17 +7,18 @@
 
 .hero{
     display: flex;
-    padding: 15px
+    padding: 15px 25px 15px 25px
 
 }
 #navbar{
-
-    padding: 12px;
+    display: flex;
+    height: 29px;
+    width: 30px;
+    margin: 10px 10px 10px 11px;
+    
 
 }
 #actions{
 
-    padding: 12px;
-    margin-left: 1350px;
-    position: absolute;
+    margin: 10px 10px 10px 10px;
 }
