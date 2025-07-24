@@ -7,9 +7,17 @@
 
 .hero{
     display: flex;
+    padding: 15px
 
 }
-#logo{
+#navbar{
 
-    padding: ;
+    padding: 12px;
+
+}
+#actions{
+
+    padding: 12px;
+    margin-left: 835px;
+    position: absolute;
 }
