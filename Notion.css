@@ -42,6 +42,7 @@ header .content {
   display: flex;
   gap: 20px;
   align-items: center;
+column-gap: 20px;
 }
 
 #navbar a {
@@ -110,7 +111,7 @@ header .content {
 /* Hero Section */
 .hero {
   text-align: center;
-  background-color: #f4f4fc;
+  background-color: white;
   font-size: 40px;
   
 }
@@ -118,7 +119,7 @@ header .content {
 .hero h1 {
   font-size: 2.8rem;
   line-height: 1.3;
-  color: #1a1a1a;
+  color: #929292;
   font-weight: 700;
 }
 
