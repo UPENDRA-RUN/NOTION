@@ -42,7 +42,7 @@ header .content {
   display: flex;
   gap: 20px;
   align-items: center;
-column-gap: 20px;
+  column-gap: 20px;
 }
 
 #navbar a {
@@ -51,6 +51,7 @@ column-gap: 20px;
   font-weight: 500;
   transition: color 0.2s ease-in-out;
 }
+
 
 #navbar a:hover {
   color: #0056d2;
@@ -63,6 +64,7 @@ column-gap: 20px;
   cursor: pointer;
 }
 
+
 .dropdown select {
   padding: 4px 10px;
   border: 1px solid #ccc;
@@ -71,6 +73,10 @@ column-gap: 20px;
   font-size: 14px;
   cursor: pointer;
   border: none;
+}
+.dropdown:hover select{
+
+  color: #0056d2;
 }
 
 .dropdown:hover {
@@ -90,7 +96,7 @@ column-gap: 20px;
   font-weight: bold;
   padding: 5px 10px;
   color: #191918;
-  
+
 }
 
 #actions button {
@@ -114,7 +120,7 @@ column-gap: 20px;
   background-color: white;
   font-size: 40px;
   margin-top: 50px;
-  
+
 }
 
 .hero h1 {
@@ -150,7 +156,7 @@ column-gap: 20px;
   object-fit: contain;
 }
 
-#pay{
+#pay {
 
   display: flex;
   justify-content: center;
@@ -158,9 +164,10 @@ column-gap: 20px;
   align-items: center;
 
 }
-#text{
+
+#text {
   display: flex;
   margin-right: 1000px;
-  border-radius:5px;
+  border-radius: 5px;
   border-color: #000000;
 }
