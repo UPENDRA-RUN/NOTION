@@ -87,11 +87,14 @@ header .content {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
+  padding: 5px 10px;
+  color: #191918;
+  
 }
 
 #actions button {
   padding: 8px 16px;
-  background-color: #0056d2;
+  background-color: #0075DE;
   color: white;
   border: none;
   border-radius: 6px;
