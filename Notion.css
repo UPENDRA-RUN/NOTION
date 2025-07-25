@@ -145,13 +145,7 @@ column-gap: 20px;
 }
 
 .logo-row img {
-  height: 40px;
+  height: 30px;
   max-width: 120px;
   object-fit: contain;
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
-}
-
-.logo-row img:hover {
-  filter: grayscale(0%);
 }
