@@ -178,6 +178,8 @@ header .content {
 
 #price{
   color: gray;
-  
+}
+#spacer{
 
+  line-height: 8px;
 }
