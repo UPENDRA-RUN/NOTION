@@ -26,13 +26,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1300px;
-  margin: auto;
+  max-width: 1700px;
 }
 
 /* Logo */
 #logo img {
   height: 30px;
+  justify-content:start ;
 }
 
 /* Navbar */
