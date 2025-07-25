@@ -160,21 +160,24 @@ header .content {
 
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding: 0px 84px 0px 84px;
 
 }
 
 #text {
-  display: flex;
-  border-radius: 5px;
+  border-radius: 10px;
   border-color: #000000;
-  gap: 2px;
+  
 }
 #save{
   color: #0075DE;
+  margin-right: 920px;
+  margin-left: 10px;
+  gap:10px;
 }
 
 #price{
-
+  color: gray;
+  
 
 }
