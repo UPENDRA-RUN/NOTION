@@ -110,8 +110,8 @@ header .content {
 /* Hero Section */
 .hero {
   text-align: center;
-  padding: 80px 20px 40px;
   background-color: #f4f4fc;
+  font-size: 64px;
 }
 
 .hero h1 {
