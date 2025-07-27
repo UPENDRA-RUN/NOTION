@@ -183,3 +183,260 @@ header .content {
 
   line-height: 8px;
 }
+
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #ffffff;
+  color: #1b1b1b;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+header {
+  width: 100%;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#logo img {
+  height: 40px;
+}
+
+#navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 10px 0;
+}
+
+#navbar a, .dropdown select {
+  font-size: 14px;
+  background: none;
+  border: none;
+  font-weight: 500;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+#actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#actions button {
+  background: #000;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+/* Trusted Logos */
+.trusted {
+  text-align: center;
+  padding: 1rem;
+}
+
+.logo-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 1rem;
+}
+
+.logo-row img {
+  height: 40px;
+}
+
+/* Toggle Buttons */
+#pay {
+  text-align: center;
+  padding: 1rem;
+}
+
+#pay button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  margin: 0 5px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+#pay #button {
+  background: black;
+  color: white;
+}
+
+#save {
+  display: block;
+  margin-top: 0.5rem;
+  color: #777;
+  font-size: 13px;
+}
+
+/* Pricing Grid */
+.grids {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 20px;
+  padding: 2rem 1rem;
+}
+
+.grids section {
+  background: #fafafa;
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.grids header span:first-child {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.grids header div span:first-child {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #000;
+}
+
+.grids header p {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #555;
+}
+
+.grids button {
+  margin-top: 14px;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+}
+
+.grids ul {
+  margin-top: 1rem;
+}
+
+.grids ul li {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin: 8px 0;
+  color: #333;
+}
+
+.grids ul li img {
+  width: 16px;
+  margin-right: 10px;
+}
+
+.grids div > span {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.grids div > span img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+/* Highlight Business Plan */
+.thirdpricingcard {
+  border: 2px solid #000;
+  background: #fff;
+}
+
+/* Footer Quote */
+#quoteopenAi {
+  margin: 3rem auto;
+  text-align: center;
+  max-width: 720px;
+  padding: 1rem;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+#quoteopenAi img {
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+#paragarphopenAi {
+  font-style: italic;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  #navbar {
+    justify-content: center;
+  }
+
+  #actions {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    font-size: 1.4rem;
+  }
+
+  .grids {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  #quoteopenAi {
+    font-size: 1rem;
+  }
+}
